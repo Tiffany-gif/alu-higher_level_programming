@@ -3,18 +3,23 @@
 """
 roman_to_int = __import__('12-roman_to_int').roman_to_int
 
-roman_number = "I"
+roman_number = "X"
 print("{} = {}".format(roman_number, roman_to_int(roman_number)))
 
-roman_number = "V"
+roman_number = "VII"
 print("{} = {}".format(roman_number, roman_to_int(roman_number)))
 
-roman_number = "L"
+roman_number = "IX"
 print("{} = {}".format(roman_number, roman_to_int(roman_number)))
 
-roman_number = "C"
+roman_number = "LXXXVII"
 print("{} = {}".format(roman_number, roman_to_int(roman_number)))
 
-roman_number = "M"
+roman_number = "DCCVII"
 print("{} = {}".format(roman_number, roman_to_int(roman_number)))
 
+roman_number = "XCIX"
+print("{} = {}".format(roman_number, roman_to_int(roman_number)))
+
+roman_number = "LXXXIX"
+print("{} = {}".format(roman_number, roman_to_int(roman_number)))
